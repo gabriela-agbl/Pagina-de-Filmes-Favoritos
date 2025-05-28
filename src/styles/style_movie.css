@@ -1,0 +1,48 @@
+body h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 64px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+}
+
+body>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+ul h2{
+    font-size: 40px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+}
+
+ul>li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+li>img{
+    padding-top: 40px;
+}
+
+li>p{
+    font-size: 20px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+}
+
+li>a{
+    font-size: 20px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+}
